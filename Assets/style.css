@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+/* header */
+
+#titleofpage {
+  max-width: 750px;
+  margin-inline: auto;
+  text-align: center;
+  margin-top: 5rem;
+  background-color: brown;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+#titleofpage h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  font-style: oblique;
+  padding-top: 2rem;
+}
+
+#titleofpage p {
+  margin-block: 1rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+/* main */
+
+#tabellone {
+  max-width: 750px;
+  margin-inline: auto;
+  text-align: center;
+  margin-top: 5rem;
+  background-color: brown;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 2em;
+}
+
+.numberscells {
+  display: inline-block;
+  width: 9%;
+  display: inline-block;
+  margin-right: 2px;
+  min-height: 100px;
+  text-align: center;
+  padding-block: 2.5rem;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  margin-bottom: 1em;
+  background-color: bisque;
+}
+
+.bgcrandom-number {
+  background-color: green;
+}
