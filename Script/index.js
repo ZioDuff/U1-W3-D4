@@ -5,6 +5,7 @@ numberExtraction = () => {
   const randomNumber = Math.ceil(Math.random() * 90)
   if (extractedNum.includes(randomNumber)) {
     console.log(randomNumber, "questo è gia uscito")
+    alert("è gia auscito")
   } else {
     extractedNum.push(randomNumber)
     arrayOfNumb[randomNumber - 1].style.backgroundColor = "green"
@@ -21,7 +22,7 @@ const generateCells = () => {
     numberCellsDiv.classList.add("numberscells")
     const numberCellsH3 = document.createElement("h3")
     numberCellsH3.innerText = i + 1
-    arrayOfNumb.push(numberCellsH3)
+    arrayOfNumb.push(numberCellsDiv)
     numberCellsDiv.appendChild(numberCellsH3)
     tabellone.appendChild(numberCellsDiv)
   }

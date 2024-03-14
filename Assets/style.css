@@ -58,6 +58,10 @@ body {
   background-color: bisque;
 }
 
-.bgcrandom-number {
-  background-color: green;
+#generate-number {
+  width: 20%;
+  font-size: large;
+  border-radius: 5px;
+  margin-block: 1rem;
+  background-color: bisque;
 }
